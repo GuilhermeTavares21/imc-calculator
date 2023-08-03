@@ -9,7 +9,7 @@ type Props = {
 
 export const GridItem = ({ item }: Props) => {
     return (
-        <div className={`flex-1 rounded-md flex flex-col justify-center items-center bg-[${item.color}]`}>
+        <div className="flex-1 rounded-md flex flex-col justify-center items-center bg-[#0EAD69]">
             <div className="w-16 h-16 rounded-full bg-black/5 flex justify-center items-center">{item.icon === 'up'? <Image src={upImage} alt="" width={30}/>: 
             <Image src={downImage} alt="" width={30}/>
             }</div>
